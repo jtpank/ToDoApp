@@ -63,7 +63,7 @@ document.addEventListener("click", function(e) {
             axios.post('/delete-item', {id: e.target.getAttribute("data-id")}).then(function() {
                 e.target.parentElement.parentElement.remove()
                 sizeOfA--
-                document.getElementById("headerA").innerText = `Todo: ${sizeOfA} things`
+                document.getElementById("headerA").innerText = `Todo Count: ${sizeOfA} things`
             }).catch(function() {
                 console.log("try later(error)")
             })
