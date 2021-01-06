@@ -1,0 +1,18 @@
+In server.js
+
+1. include dependencies and npm install said dependencies
+--> express for server, mongodb for database
+2. Setup express App variable, async and auto form data
+3. Connect to db
+4. Setup functionality (CRUD) and link to db
+
+
+In broswer.js
+1. Tell webrowser to send a request W/O a form or url
+--> use Axios to accomplish this (need separate script included)
+FOR UPDATE and DELETE feature in broswer w/o refresh
+
+
+Security
+1. PW protection
+2. Insurance protection
