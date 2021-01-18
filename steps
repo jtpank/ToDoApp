@@ -1,5 +1,7 @@
 In server.js
 
+** for package.json run npm init
+
 1. include dependencies and npm install said dependencies
 --> express for server, mongodb for database
 2. Setup express App variable, async and auto form data
@@ -16,3 +18,7 @@ FOR UPDATE and DELETE feature in broswer w/o refresh
 Security
 1. PW protection
 2. Insurance protection
+
+Deploy to heroku via git
+1. need .gitignore file (to ignore)
+2. need Procfile (to run)

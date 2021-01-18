@@ -17,6 +17,7 @@ let mongodb = require("mongodb")
 let todoApp = express()
 
 //what does this line do?
+//A: tells app to access static (css, images, ...) files in the 'public' library
 todoApp.use(express.static('public'))
 
 //declare a variable with this name in global scope
