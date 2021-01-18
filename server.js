@@ -29,8 +29,7 @@ if(port == null || port == "")
   port = 8000
 }
 //connect to database
-//user: todoAppUser pw: password1!
-let connectionString = 'mongodb+srv://todoAppUser:password1!@todoappcluster.ygnpr.mongodb.net/todoDB?retryWrites=true&w=majority'
+let connectionString = 'INPUT_DB_STRING'
 mongodb.connect(connectionString, {useUnifiedTopology: true}, function(err, client) {
     db = client.db()
     //set port to listen AFTER connected to db
@@ -49,8 +48,6 @@ let passwordSTR = "abc123"
 //setup pw protection as well
 function passwordProtect(req, res, next) {
   res.set('WWW-Authenticate', 'Basic realm="To Do App"')
-  //admin
-  //pw321
   if(req.headers.authorization == "Basic YWRtaW46cHczMjE="){
     next()
   } else {
