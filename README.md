@@ -1,7 +1,7 @@
 # ToDoApp
 Basic To Do App | html/css (bootstrap4), JS, NodeJS, MongoDB, hosted on herokuapp
 
-Go to the following link:
+Go to the following link to view the application live:
 
 https://basictodoapp1234.herokuapp.com/
 
