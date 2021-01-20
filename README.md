@@ -13,3 +13,5 @@ All changes are reflected in mongoDB database
 No user login functionality for this basic app
 
 See twitter clone for more functionality
+
+Uses Git to push onto heroku app
